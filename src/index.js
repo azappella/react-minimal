@@ -10,6 +10,10 @@ import normalize from './css/normalize';
 
 const GlobalStyle = createGlobalStyle`${normalize}`;
 
+if (module.hot) {
+    module.hot.accept();
+}
+
 ReactDOM.render(
     <BrowserRouter>
         <Fragment>
