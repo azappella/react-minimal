@@ -27,7 +27,6 @@ module.exports = {
     devServer: {
         static: paths.outputPath,
         compress: true,
-        hot: true,
         historyApiFallback: true
     },
     plugins: [
