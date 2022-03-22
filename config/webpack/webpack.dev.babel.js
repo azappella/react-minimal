@@ -25,7 +25,7 @@ module.exports = {
         }
     },
     devServer: {
-        contentBase: paths.outputPath,
+        static: paths.outputPath,
         compress: true,
         hot: true,
         historyApiFallback: true
