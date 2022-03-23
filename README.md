@@ -17,12 +17,12 @@ This template contains all you need to start your next React project. All you ne
 
 ## Features
 
-- ⚛ **React** — 16.8.6 (with hooks)
-- ♻ **Redux, redux-thunk, redux-act** — State Management with middleware and helpers
+- ⚛ **React** — 17.0.1
+- ♻ **Redux** — State Management with middleware and helpers
 - 🛠 **Babel** — ES6 syntax
 - 🚀 **Webpack**  — Hot Reloading, Code Splitting, Optimized Build (development/production)
 - 💅 **CSS** — Styled Components and regular CSS Loader if necessary
-- ✅  **Tests** — Jest, React Testing Library & Cypress
+- ✅  **Tests** — Jest, React Testing Library
 - 💖  **Lint** — ESlint, Airbnb & React/Recommended config
 
 ## Getting started
