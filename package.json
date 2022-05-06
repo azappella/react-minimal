@@ -1,6 +1,6 @@
 {
     "name": "react-minimal",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "description": "A minimal react starter template",
     "main": "src/index.js",
     "scripts": {
@@ -10,7 +10,8 @@
         "lint:fix": "eslint ./src/**/**.js --fix",
         "test": "jest",
         "test:watch": "yarn run test --watch",
-        "test:cover": "yarn run test --coverage"
+        "test:cover": "yarn run test --coverage",
+        "clean": "rm -rf ./node-modules package-lock.json"
     },
     "author": "Andrew Zappella",
     "license": "MIT",
@@ -67,6 +68,9 @@
         "redux-act": "^1.8.0",
         "redux-thunk": "^2.4.1",
         "styled-components": "^5.3.3"
+    },
+    "resolutions": {
+        "glob-parent": "^6.0.1"
     },
     "jest": {
         "setupFiles": [
