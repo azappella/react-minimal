@@ -11,7 +11,7 @@
         "test": "jest",
         "test:watch": "yarn run test --watch",
         "test:cover": "yarn run test --coverage",
-        "clean": "rm -rf ./node-modules package-lock.json"
+        "preinstall": "npx npm-force-resolutions"
     },
     "author": "Andrew Zappella",
     "license": "MIT",
