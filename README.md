@@ -42,9 +42,10 @@ This template contains all you need to start your next React project. All you ne
 - `npm run test:watch` - run all tests in watch mode
 - `npm run test:cover` - coverage mode
 
-## License
+##  TODO
 
-MIT license
+- Try adding redux toolkit
+- Create authentication template
 
 ## Credit/Thanks
 
@@ -58,3 +59,9 @@ Some key differences:
 - removed support for sass
 - removed husky
 - removed jarvis
+
+## License
+
+MIT license
+
+MIT license
