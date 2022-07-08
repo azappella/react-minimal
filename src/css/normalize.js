@@ -1,6 +1,6 @@
-import { css } from 'styled-components';
+import { css } from '@stitches/react';
 
-const normalize = css`
+const normalize = css(`
     html {
       line-height: 1.15; /* 1 */
       -webkit-text-size-adjust: 100%; /* 2 */
@@ -180,6 +180,6 @@ const normalize = css`
     [hidden] {
       display: none;
     }
-`;
+`);
 
 export default normalize;

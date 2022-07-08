@@ -1,4 +1,4 @@
-import { createAction } from 'redux-act';
+import { createAction } from '@reduxjs/toolkit';
 
 export const setIn = (objProperty) => (state, payload) => ({
     ...state,
