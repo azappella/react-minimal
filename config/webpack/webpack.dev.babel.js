@@ -5,9 +5,9 @@ const paths = require('./paths');
 module.exports = {
     mode: 'development',
     output: {
-        filename: '[name].js',
+        filename: '[name].bundle.js',
         path: paths.outputPath,
-        chunkFilename: '[name].js'
+        chunkFilename: '[name].js',
     },
     performance: {
         hints: 'warning',
@@ -22,7 +22,7 @@ module.exports = {
     optimization: {
         splitChunks: {
             chunks: 'all'
-        }
+        },
     },
     devServer: {
         static: paths.outputPath,
@@ -30,6 +30,8 @@ module.exports = {
         historyApiFallback: true
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ]
+        new webpack.ProgressPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
+    ],
+    devtool: 'source-map'
 };

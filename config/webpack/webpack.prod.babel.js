@@ -1,5 +1,5 @@
 
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 const paths = require('./paths');
 
@@ -11,9 +11,7 @@ module.exports = {
         chunkFilename: '[name].[chunkhash].js'
     },
     plugins: [
-        new CleanWebpackPlugin([paths.outputPath.split('/').pop()], {
-            root: paths.root
-        })
+        new CleanWebpackPlugin(),
     ],
     devtool: 'source-map'
 };
