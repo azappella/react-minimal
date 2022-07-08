@@ -21,7 +21,7 @@ This template contains all you need to start your next React project. All you ne
 - ♻ **Redux** — State Management with middleware and helpers
 - 🛠 **Babel** — ES6 syntax
 - 🚀 **Webpack**  — Hot Reloading, Code Splitting, Optimized Build (development/production)
-- 💅 **CSS** — Styled Components and regular CSS Loader if necessary
+- 💅 **CSS** — Using stitches for styling components and regular CSS Loader if necessary
 - ✅  **Tests** — Jest, React Testing Library
 - 💖  **Lint** — ESlint, Airbnb & React/Recommended config
 
@@ -47,21 +47,21 @@ This template contains all you need to start your next React project. All you ne
 - Try adding redux toolkit
 - Create authentication template
 
-## Credit/Thanks
+## Key differences
 
 This repository is a fork from [React Bolt](https://github.com/leonardomso/react-bolt), the excellent react starter template from [Leonardo Maldonado](https://github.com/leonardomso).
 
 Some key differences:
 
-- added redux-act
+- added redux-toolkit
 - removed unecessary devDependencies
 - removed all babel plugins
 - removed support for sass
 - removed husky
 - removed jarvis
+- replaced styled-components with stitches
+- Replaced react-router with wouter
 
 ## License
-
-MIT license
 
 MIT license
